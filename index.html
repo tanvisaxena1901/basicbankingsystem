@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>India Bank</title>
+   </head>
+   <body>
+		<link rel="stylesheet" href="style.css">
+		<script src="s.js"></script>
+		<script src="bb.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/.css">
+<header class="clearfix">
+   <div class="container">
+        <div class="header-left">
+           <h1>INDIA BANK</h1>
+        </div>
+        <div class="header-right">
+           <label for="open">
+              <span class="hidden-desktop"></span>
+           </label>
+           <input type="checkbox" name="" id="open">
+           <nav>
+              <a href="main.html">Home</a>
+              <a href="form.html">Create User</a>
+              <a href="people.html">Transfer Money</a>
+              <a href="#">Transaction History</a>
+              <a href="https://www.linkedin.com/in/tanvi-saxena-19t01/">Contact Me </a>
+           </nav>
+        </div>
+     </div>
+  </header>
+<section class="clearfix">
+     <div class="container">
+        <div class="section-left">
+           <h1 class="section-title">Welcome to INDIA BANK</h1>
+           <h5 class="section-tagline"></h5>
+        </div>
+        <div class="section-right">
+          <a href="people.html"><button class="learn-more">Get Started!</button></a>
+        </div>
+     </div>
+  </section>
+  <img src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202004/bank_2_660x450_240120042324_010420100901.jpg" alt="Italian Trulli" class="center">
+
+<style>
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e;
+}
+
+.linkedin{
+    color: #0077b5;
+}
+
+
+
+
+*{
+  margin: 0;
+	padding: 0;
+	outline: none;
+	border: none;
+	
+}
+*:before,
+
+.clearfix {
+  *zoom: 1;
+}
+html{
+	font-family: Helvetica, arial, sans-serif;
+	font-size: 12px;
+}
+body{
+	background: url('brushed_alu.png');
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	height: auto;
+	background: black;
+}
+.header-left,
+.header-right{
+	position: relative;
+	color: white;
+	float: left;
+}
+.header-left{
+	width: 30%;
+}
+.header-right label{
+	position: absolute;
+	top: -3.7em;
+	right: 0;
+	cursor: pointer;
+}
+.header-right span{
+	position: relative;
+	width: 2em;
+	height: 2em;
+	background: rgba(255,255,255,.3);
+	
+}
+.header-right span:hover{
+	background: rgba(255,255,255,.6);
+}
+.header-right span:before,
+.header-right span:after{
+	content: '';
+	position: absolute;
+	width: 2em;
+	height: .5em;
+	top: 4px;
+	left: 0;
+	background: black;
+}
+.header-right span:after{
+	top: 14px;
+}
+.header-right{
+	width: 70%;
+	text-align: right;
+}
+#open{
+	display: none;
+}
+h1{
+	font-weight: 300;
+	line-height: 40px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+nav>a{
+	position: relative;
+	display: inline-block;
+	font-size: 13px;
+	line-height: 40px;
+	padding: 0 2em;
+}
+nav>a:hover{
+	background: rgba(255,255,255,.9);
+	color: black;
+}
+.hidden-desktop{
+	display: none;
+}
+section{
+	width: 100%;
+	height: auto;
+	background-image: -webkit-linear-gradient(#80059E 0%, #f2eef5 100%);
+}
+.section-left,
+.section-right{
+	float: left;
+}
+.section-left{
+	width: 70%;
+	padding: 3em 0;
+}
+.section-right{
+	width: 30%;
+}
+.section-title,
+.section-tagline{
+	color: white;
+	font-weight: 300;
+	margin: 0;
+	padding: 0;
+	
+}
+.section-title{
+	font-size: 4em;
+	margin-bottom: .3em;
+	text-shadow: 0 3px 0px black,
+				 0 4px 0px rgba(150,150,150,.5);
+}
+.section-tagline{
+	font-size: 1em;
+}
+.learn-more{
+	display: table;
+	margin: 3em auto 0;
+	padding: 1em 6em;
+	cursor: pointer;
+	border-radius: 3px;
+	box-shadow: inset 0 -3px 0 rgba(0,0,0,.8);
+	background: #EAAF00;
+	background-image: -webkit-linear-gradient(#EAAF00 0%, #D78100 100%);
+	font-size: 1.2em;
+}
+.learn-more:hover{
+	background: #EAAF00;
+}
+.learn-more:active{
+	box-shadow: inset 0 2px 0 rgba(0,0,0,.8);
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.box{
+		width: 49%;
+		margin-bottom: 5%;
+	}
+
+	ul li:nth-child(3) .box{
+		clear: both;
+	}
+
+	ul li:nth-child(2n) .box{
+		margin-right: 0;
+		clear: right;
+	}
+}
+
+/* Small monitor */
+@media (max-width: 979px){
+	nav>a{
+		padding: 0 1.5em;
+	}
+	.section-left,
+	.section-right{
+		width: 100%;
+	}
+	.section-left{
+		text-align: center;
+	}
+	.section-right{
+		padding: 0 0 2em;
+	}
+	.section-title{
+		font-size: 4em;
+		margin-bottom: .2em;
+	}
+	.section-tagline{
+		font-size: 1.3em;
+	}
+	.learn-more{
+		margin: 0 auto;
+	}
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.container{
+		width: 95%;
+	}
+	nav>a{
+		padding: 0 2em;
+	}
+	h1{
+		padding: .5em 0;
+	}
+	.header-left,
+	.header-right{
+		width: 100%;
+		text-align: center;
+	}
+	.section-left,
+	.section-right{
+		width: 100%;
+	}
+	.section-left{
+		text-align: center;
+		padding: 2em 0;
+	}
+	.section-right{
+		padding: 1em 0 2em;
+	}
+	.section-title{
+		font-size: 3em;
+		margin-bottom: .2em;
+	}
+	.section-tagline{
+		font-size: 1.3em;
+	}
+	.learn-more{
+		margin: 0 auto;
+	}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	body{
+		padding: 0 .5em;
+	}
+	.container{
+		width: 90%;
+	}
+	nav{
+		height: 0;
+		overflow: hidden;
+		
+	}
+	input[type="checkbox"]:checked + nav{
+		height: 205px;
+	}
+	nav>a{
+		padding: 0 1em;
+		display: block;
+		border-bottom: solid 1px rgba(255,255,255,.1);
+	}
+	h1{
+		padding: .5em 0;
+	}
+	.header-left,
+	.header-right{
+		width: 100%;
+		text-align: center;
+	}
+	.section-left,
+	.section-right{
+		width: 100%;
+	}
+	.section-left{
+		text-align: center;
+		padding: 1em 0;
+	}
+	.section-right{
+		text-align: center;
+		padding: 1em 0 2em;
+	}
+	.section-title{
+		font-size: 2.4em;
+		margin-bottom: 0;
+	}
+	.section-tagline{
+		font-size: 1em;
+	}
+	.learn-more{
+		display: table;
+		margin: 0 auto;
+	}
+	.hidden-desktop{
+		display: block;
+	}
+}
+
+
+</style>
+<footer>
+   <hr>
+   <div class="row text-center">
+     <div class="col-md-6">
+       <p>This project is made by Tanvi Saxena #GRIP.</p>
+       
+     </div>
+	  
+     <div class="col-md-6 text-center">
+         <ul class="social-icons">
+           Contact Me:
+			  <a href="https://www.linkedin.com/in/tanvi-saxena-19t01/">
+				<img src="https://img.icons8.com/color/48/000000/linkedin-circled--v5.png"/></a>
+			   <a href="https://github.com/tanzzz-tech"><img src="https://img.icons8.com/fluency/48/000000/github.png"/></a>
+			
+         </ul>
+     </div>
+   </div>
+ </footer>
+</body>
+</html>
